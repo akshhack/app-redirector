@@ -1,10 +1,9 @@
-![App Blocker Logo](app-blocker.PNG)
-# AppBlocker
-Mobile applications do make our life easier but also distracts us from focusing on our work. Wouldn't it be easier if you could block those distracting applications while you want to focus on something? AppBlocker can help you with these problems. It simply lets you select a list of application that you want to block for the given period of time. So next time you won't be able to operate an app that is blocked for the given amount of time.
+# App Redirector (TODO: working name)
+Mobile applications do make our life easier but also distracts us from focusing on our work. When bored, our thumbs twindle right towards those Youtubes, Instagrams and Messengers. Instead how more productive could you feel and be spending all that time scrolling through feeds but journalling instead? App redirector seeks to achieve just this. Any time you click on a distracting, "unproductive" app (as per your definition), you're redirected to a more "productive" app (gain as per your definition).
 
 #### How it Works
-Once the user has submitted the amount of time and a list of apps to block. We store this data on a local database (SQLite).
-The main task of blocking an app is done by a background service. The service continuously fetches the foreground ( currently active) app and queries through the database to check whether this app is blocked or not. If the app is blacklisted then we display a blank activity on the screen, thus preventing the user from operating the app.
+Once the user has submitted a list of unproductive and productive apps, we store this data on a local database (SQLite).
+The main task of blocking and redirecting is done by a background service. The service continuously fetches the foreground (currently active) app and queries through the database to check whether this app is blocked or not. If the app is blocklisted then we randomly choose a whitelisted app and open it up instead.
 
 #### Screenshots
-![Splash Screen](documentation/images/login-page.png)  ![Splash Screen](documentation/images/select-apps.png)  ![Splash Screen](documentation/images/select-time.png)
+TODO: <Insert screen shots here>
